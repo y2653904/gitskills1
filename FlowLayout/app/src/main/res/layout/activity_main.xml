@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--fillviewport 当添加新的孩子后，可以自适应高度（刷新view)-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:context="com.heima28.flowlayout.MainActivity">
+
+    <com.heima28.flowlayoutlib.FlowLayout
+        android:id="@+id/flowlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!" />
+</ScrollView>
